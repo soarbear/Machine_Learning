@@ -1,5 +1,5 @@
 # Machine_Learning
- Machine learning sample source code tested under Google Colaboratory for learning and practice. Some samples are from "Machine Learning in Action" written by Peter Harrington.
+Machine learning sample source code tested under Google Colaboratory for learning and practice. All samples are tested under Google Colaboratory. Some samples are from "Machine Learning in Action" written by Peter Harrington.
  - kNN
  
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kNN/result_kNN.jpg)
