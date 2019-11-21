@@ -15,4 +15,6 @@ Repeat the process of above step for the 2 subsets until all subsets cannot be s
 
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_newPoint.png)
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_findNearestPoint.png)
- 
+
+ - continuing...
+ Updated once a week.
