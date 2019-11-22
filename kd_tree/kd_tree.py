@@ -37,7 +37,7 @@ def create_kdtree(dataset, depth):
         tree_node['right'] = create_kdtree(dataset[num + 1:], depth)
         return tree_node
 #
-# search k near points on the tree. 
+# search the nearest point on the tree. 
 #
 def search_kdtree(tree, data):
     k = len(data)
