@@ -1,7 +1,7 @@
 # Machine_Learning
 Machine learning sample source code tested under Google Colaboratory for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
  
- - [x]**kNN.** 
+ - [x] **kNN.** 
 
   - **Target:** Find the class which new instance(point, number, alphabet etc) belongs to. 
 
@@ -12,7 +12,7 @@ Machine learning sample source code tested under Google Colaboratory for learnin
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kNN/result_kNN.jpg)
 
 
- - [x]**kd-tree.** 
+ - [x] **kd-tree.** 
 
   - **Target:** Find the class which new instance(point, number, alphabet etc) belongs to. 
 
@@ -23,6 +23,6 @@ Machine learning sample source code tested under Google Colaboratory for learnin
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_newPoint.png)
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_findNearestPoint.png)
 
- - [x]**- Continuing...** 
+ - [x] **- Continuing...** 
  
  Updated once a week.
