@@ -1,7 +1,7 @@
 # Machine_Learning
 Machine learning sample source code tested under Google Colaboratory for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
  
- - kNN. Find k(odd number) near points from dataset. The lass to which many points belong is the class.
+ - kNN. Find k(odd number) near points from dataset. The lass to which many points belong is the rsult.
 
 Example: Discriminate handwritten numbers from 0 to 9 using k-NearNeighbor method. In the handwritten example, in the case of test data, the accuracy rate was 98.7%, so kNN is a classification method that can be used to recognize handwritten digits.
 
