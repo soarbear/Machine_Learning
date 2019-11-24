@@ -29,7 +29,7 @@ Machine learning sample source code tested under Google Colaboratory for learnin
 
   - **Description:** Calculate conditional probability by Bayes formula.
  
-  - **Example:** Discriminate whether a vocalulary list is abusive one or not.
+  - **Example:** Discriminate whether a vocalulary list is an abusive one or not.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/bayes/bayes_result.jpg)
 
