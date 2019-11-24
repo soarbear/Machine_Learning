@@ -23,6 +23,14 @@ Machine learning sample source code tested under Google Colaboratory for learnin
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_newPoint.png)
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_findNearestPoint.png)
 
- ## Continuing... 
+ ## bayes. 
  
- Updated once a week.
+  - **Target:** Find the class which new instance(point, sentense, mail etc) belongs to.
+
+  - **Description:** Calculate conditional probability by Bayes formula.
+ 
+  - **Example:** Discriminate whether a vocalulary list is abusive one or not.
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/bayes/bayes_result.jpg)
+
+  
