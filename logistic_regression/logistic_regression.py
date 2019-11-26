@@ -9,7 +9,7 @@ from numpy import *
 #
 def loadDataSet():
     dataMat = []; labelMat = []
-    fr = open('testSet.txt')
+    fr = open('/content/drive/My Drive/Colab Notebooks/Machine_Learning/logistic_regression/testSet.txt')
     for line in fr.readlines():
         lineArr = line.strip().split()
         dataMat.append([1.0, float(lineArr[0]), float(lineArr[1])])
@@ -42,6 +42,7 @@ def plotBestFit(weights):
     import matplotlib.pyplot as plt
     dataMat,labelMat=loadDataSet()
     dataArr = array(dataMat)
+    #print(f"dataArr[0,1]: {dataArr[0,1]}, dataArr[0,2]: {dataArr[0,2]}")
     n = shape(dataArr)[0] 
     xcord1 = []; ycord1 = []
     xcord2 = []; ycord2 = []
@@ -50,12 +51,15 @@ def plotBestFit(weights):
             xcord1.append(dataArr[i,1]); ycord1.append(dataArr[i,2])
         else:
             xcord2.append(dataArr[i,1]); ycord2.append(dataArr[i,2])
-    fig = plt.figure()
+    print(f"xcord1: {xcord1}, ycord1: {ycord1}")
+    print(f"xcord2: {xcord2}, ycord2: {ycord2}")
+    fig = plt.figure(figsize=(10, 10))
     ax = fig.add_subplot(111)
     ax.scatter(xcord1, ycord1, s=30, c='red', marker='s')
     ax.scatter(xcord2, ycord2, s=30, c='green')
     x = arange(-3.0, 3.0, 0.1)
-    y = (-weights[0]-weights[1]*x)/weights[2]
+    y = (-weights[0,0]-weights[1,0]*x)/weights[2,0]
+    #print(f"weights:{weights}\nx:{x}\ny:{y}")
     ax.plot(x, y)
     plt.xlabel('X1'); plt.ylabel('X2');
     plt.show()
@@ -71,6 +75,5 @@ def classifyVector(inX, weights):
 #
 if __name__ == '__main__':
   dataMatrix, classLabels = loadDataSet()
-  gradAscent(dataMatrix, classLabels)
-  weights = plotBestFit(weights)
-  
+  weights = gradAscent(dataMatrix, classLabels)
+  plotBestFit(weights)
