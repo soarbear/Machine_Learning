@@ -1,5 +1,5 @@
 # Machine_Learning
-Machine learning sample source code tested under Google Colaboratory for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
+Machine learning sample source code tested on Google Colaboratory for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
  
  ## kNN. 
 
