@@ -33,4 +33,13 @@ Machine learning examples for learning and practice. All tested on google colabo
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/bayes/bayes_result.jpg)
 
+ ## logistic_regression. 
+ 
+  - **Target:** Find the class which new instance(point, sentense, mail etc) belongs to.
+
+  - **Description:** Calculate the border for different classes with gradient ascent method.
+ 
+  - **Example:** Draw the border of different groups of points.
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/logistic_regression/logistic_regression.png)
   
