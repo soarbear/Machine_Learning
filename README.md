@@ -47,6 +47,12 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/logistic_regression/logistic_regression.png)
   
 # SVM
-
-continuing...
+  
+  - **Target:** Find the class which new instance(point, number, alphabet etc) belongs to. 
+  
+  - **Description:** Assuming that multiple samples can be classified, linear SVM is applied by classifying samples belonging to different labels in a straight line. However, if such a straight line does not exist, kernel tricks are used to find the hyperplane for sample classification in the mapped high-dimensional space, and nonlinear SVM is applied. Unlike logistic regression, the constraint is that the sample is at the boundary because it maximizes the interval between the samples closest to the boundary. The Lagrange multiplier method is used to simplify and solve the optimal problem with constraints to the problem without constraints.
+  
+  - **Example:** Draw the border of different groups of points.
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/svm/svm_gaussian_kernel.png)
 
