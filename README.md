@@ -64,5 +64,5 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   
   - **Example:** classify new two points with adaboost classifier.
   
-  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/adaboost/adaboost.jpg)
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/adaboost/adaboost_test.jpg)
 
