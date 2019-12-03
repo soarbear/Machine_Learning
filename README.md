@@ -56,3 +56,13 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/svm/svm_gaussian_kernel.png)
 
+# adaboost
+  
+  - **Target:** Build adaboost classifier to classify new instance.
+  
+  - **Description:** Can someone create a powerful classifier using multiple weak classifiers? From this question, AdaBoost (Adaptive Boosting) was born. The process is as follows. Give weight d to the training samples. Their weights d are initialized to equal values. First train the weak classifier with the training data, calculate the error rate ε of the classifier, and then repeat the training with the same data set. In the second training of the classifier, the sample weight d is readjusted. The weight d of correctly classified samples is reduced, and the weight d of misclassified samples is increased. AdaBoost linearly synthesizes each classification result from a plurality of weak classifiers with a weight α assigned based on each error rate to obtain a final result.
+  
+  - **Example:** classify new two points with adaboost classifier.
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/adaboost/adaboost.jpg)
+
