@@ -68,11 +68,12 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   
 # Regression
 
-  - **Target:** 
+  - **Target:** Find an equation for the target value with respect to continuous input variable.
   
-  - **Description:** 
+  - **Description:** Regression is the process of predicting a target value similar to classification. The difference
+between regression and classification is that the variable forecasted in regression is continuous, whereas it’s discrete in classification. Regression is one of the most useful tools in statistics.
   
-  - **Example:** Caiculate weights with forward stagewise regression.
+  - **Example:** Calculate weights with forward stagewise regression.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/regression/forward_stagewise_regression.jpg)
 
