@@ -4,7 +4,7 @@ Machine learning examples for learning and practice. All tested on google colabo
 # Environment
 Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3, Pandas 0.25.2, keras 2.2.5
 
-# kNN. 
+# kNN
 
   - **Target:** Find the class which new instance(point, number, alphabet etc) belongs to. 
 
@@ -26,7 +26,7 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_newPoint.png)
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/kd_tree/kd_tree_findNearestPoint.png)
 
-# bayes
+# Bayes
  
   - **Target:** Find the class which new instance(point, sentense, mail etc) belongs to.
 
@@ -36,7 +36,7 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/bayes/bayes_result.jpg)
 
-# logistic_regression
+# Logistic_regression
  
   - **Target:** Find the class which new instance(point, sentense, mail etc) belongs to.
 
@@ -56,7 +56,7 @@ Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/svm/svm_gaussian_kernel.png)
 
-# adaboost
+# AdaBoost
   
   - **Target:** Build adaboost classifier to classify new instance.
   
