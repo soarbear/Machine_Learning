@@ -6,6 +6,7 @@
 
 
  - Model tree.
+ 
 ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/model_tree.png)
 
  - Compare Regression tree with linear regression.
