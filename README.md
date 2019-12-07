@@ -77,3 +77,13 @@ between regression and classification is that the variable forecasted in regress
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/regression/forward_stagewise_regression.jpg)
 
+# Decision_tree
+
+  - **Target:** Make a regression tree for decrete data, a model tree for continous data. 
+  
+  - **Description:** CART(Classification And Regression Tree).
+  
+  - **Example:** Make a regression tree for decrete samples, a model tree for continous samples. Compare regression tree with liear regression.
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/regression_tree.png)
+
