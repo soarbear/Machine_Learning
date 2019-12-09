@@ -87,3 +87,12 @@ between regression and classification is that the variable forecasted in regress
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/regression_tree.png)
 
+# k_means
+
+  - **Target:** 
+  
+  - **Description:** 
+  
+  - **Example:** 
+  
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/regression_tree.png)
