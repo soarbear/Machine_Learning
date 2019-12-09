@@ -89,10 +89,10 @@ between regression and classification is that the variable forecasted in regress
 
 # k_means
 
-  - **Target:** 
+  - **Target:** Using the cluster's mean, classify all samples into k clusters determined in advance.
   
-  - **Description:** 
+  - **Description:** 1. Find the cluster center closest to all samples → 2. Update the cluster center → Execute 1 again → Execute 2 again. Repeat the execution of 1 until the cluster center does not change.
   
-  - **Example:** 
+  - **Example:** Assign points to 4 clusters.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/regression_tree.png)
