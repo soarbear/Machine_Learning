@@ -1,6 +1,6 @@
 # Test points
 
-  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/k_means/k_means_test.png)
+  ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/k_means/k_means_test.jpg)
 
 # Result
 
