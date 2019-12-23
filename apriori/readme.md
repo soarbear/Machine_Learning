@@ -1,6 +1,6 @@
 # Result
 
-minSupport: 0.5, minConfidence: 0.7
+**minSupport: 0.5, minConfidence: 0.7**
 
 [main] minSupport: 0.5
 
@@ -20,7 +20,7 @@ frozenset({2, 3, 5}): 0.5}
 
 ruleList: [(frozenset({5}), frozenset({2}), 1.0), (frozenset({2}), frozenset({5}), 1.0), (frozenset({1}), frozenset({3}), 1.0)]
 
-minSupport: 0.5, minConfidence: 0.5
+**minSupport: 0.5, minConfidence: 0.5**
 
 [main] minSupport: 0.5
 Lk: [[frozenset({5}), frozenset({2}), frozenset({3}), frozenset({1})], [frozenset({2, 3}), frozenset({3, 5}), frozenset({2, 5}), frozenset({1, 3})], [frozenset({2, 3, 5})], []]
