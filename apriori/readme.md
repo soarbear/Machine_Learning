@@ -1,5 +1,9 @@
 # Result
 
+**dataSet**
+
+[[1, 3, 4], [2, 3, 5], [1, 2, 3, 5], [2, 5]]
+
 **minSupport: 0.5, minConfidence: 0.7**
 
 [main] minSupport: 0.5
