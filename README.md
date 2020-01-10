@@ -4,6 +4,9 @@ Machine learning examples for learning and practice. All tested on google colabo
 # Environment
 Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3, Pandas 0.25.2, keras 2.2.5
 
+# Language
+Explanasion in Japanese is <a href="https://memo.soarcloud.com/category/ai/">Here</a>.
+
 # kNN
 
   - **Target:** Find the class which new instance(point, number, alphabet etc) belongs to. 
