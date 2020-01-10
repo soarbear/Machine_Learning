@@ -98,5 +98,10 @@ between regression and classification is that the variable forecasted in regress
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/k_means/k_means_test.jpg)
 
 # FP_Growth
+  - **Description:**  The FP-growth algorithm is faster than Apriori because it requires only two scans of the database, whereas Apriori will scan the dataset to find if a given pattern is frequent or not—Apriori scans the dataset for every potential frequent item. On small datasets, this isn’t a problem, but when you’re dealing with larger datasets, this will be a problem. The FP-growth algorithm  scans the dataset only twice. The basic approach to finding frequent itemsets using the FP-growth algorithm is as follows:
+  1 Build the FP-tree. 
+  2 Mine frequent itemsets from the FP-tree.
 
 # PCA
+ - **Description:** The first method for dimensionality reduction is called principal component analysis (PCA). In PCA, the dataset is transformed from its original coordinate system to a new coordinate system. The new coordinate system is chosen by the data itself. The first new axis is chosen in the direction of the most variance in the data. The second axis is orthogonal to the first axis and in the direction of an orthogonal axis with the largest variance. This procedure is repeated for as many features as we had in the original
+data. We’ll find that the majority of the variance is contained in the first few axes. Therefore, we can ignore the rest of the axes, and we reduce the dimensionality of our data. 
