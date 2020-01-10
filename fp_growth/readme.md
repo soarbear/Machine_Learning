@@ -1,7 +1,9 @@
 # Result
 
 step1 dataSet:  [['A', 'B', 'C', 'E', 'F', 'O'], ['A', 'C', 'G'], ['E', 'I'], ['A', 'C', 'D', 'E', 'G'], ['A', 'C', 'E', 'G', 'L'], ['E', 'J'], ['A', 'B', 'C', 'E', 'F', 'P'], ['A', 'C', 'D'], ['A', 'C', 'E', 'G', 'M'], ['A', 'C', 'E', 'G', 'N']]
+
 step2 sorted dataset:  {frozenset({'F', 'C', 'O', 'A', 'E', 'B'}): 1, frozenset({'A', 'G', 'C'}): 1, frozenset({'E', 'I'}): 1, frozenset({'C', 'D', 'A', 'G', 'E'}): 1, frozenset({'C', 'A', 'G', 'L', 'E'}): 1, frozenset({'J', 'E'}): 1, frozenset({'F', 'C', 'P', 'A', 'E', 'B'}): 1, frozenset({'A', 'D', 'C'}): 1, frozenset({'C', 'M', 'A', 'G', 'E'}): 1, frozenset({'C', 'N', 'A', 'G', 'E'}): 1}
+
 step3 FP-Tree: 
    Null Set : 1
      A : 8
@@ -14,6 +16,7 @@ step3 FP-Tree:
          G : 1
          D : 1
      E : 2
+     
 step3 headerTable:  {'F': [2, <__main__.treeNode object at 0x7f4bce92f7f0>], 'C': [8, <__main__.treeNode object at 0x7f4bcea1a8d0>], 'A': [8, <__main__.treeNode object at 0x7f4bcea1a358>], 'E': [8, <__main__.treeNode object at 0x7f4bce92f748>], 'B': [2, <__main__.treeNode object at 0x7f4bce92f7b8>], 'G': [5, <__main__.treeNode object at 0x7f4bce92f710>], 'D': [2, <__main__.treeNode object at 0x7f4bce92f940>]}
 bigL:  ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 basePat:  A
@@ -22,6 +25,7 @@ condPattBases : A {}
 basePat:  B
 finalFrequent Item:  {'B'}
 condPattBases : B {frozenset({'C', 'E', 'A'}): 2}
+
 step4 conditional tree for:  {'B'}
    Null Set : 1
      A : 2
@@ -34,6 +38,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'B'}
 condPattBases : C {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'C', 'B'}
    Null Set : 1
      A : 2
@@ -44,6 +49,7 @@ condPattBases : A {}
 basePat:  E
 finalFrequent Item:  {'E', 'B'}
 condPattBases : E {frozenset({'C', 'A'}): 2}
+
 step4 conditional tree for:  {'E', 'B'}
    Null Set : 1
      A : 2
@@ -55,6 +61,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'E', 'B'}
 condPattBases : C {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'C', 'E', 'B'}
    Null Set : 1
      A : 2
@@ -65,6 +72,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C'}
 condPattBases : C {frozenset({'A'}): 8}
+
 step4 conditional tree for:  {'C'}
    Null Set : 1
      A : 8
@@ -75,6 +83,7 @@ condPattBases : A {}
 basePat:  D
 finalFrequent Item:  {'D'}
 condPattBases : D {frozenset({'C', 'G', 'E', 'A'}): 1, frozenset({'C', 'A'}): 1}
+
 step4 conditional tree for:  {'D'}
    Null Set : 1
      A : 2
@@ -86,6 +95,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'D'}
 condPattBases : C {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'C', 'D'}
    Null Set : 1
      A : 2
@@ -96,6 +106,7 @@ condPattBases : A {}
 basePat:  E
 finalFrequent Item:  {'E'}
 condPattBases : E {frozenset({'C', 'A'}): 6}
+
 step4 conditional tree for:  {'E'}
    Null Set : 1
      A : 6
@@ -107,6 +118,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'E'}
 condPattBases : C {frozenset({'A'}): 6}
+
 step4 conditional tree for:  {'C', 'E'}
    Null Set : 1
      A : 6
@@ -117,6 +129,7 @@ condPattBases : A {}
 basePat:  F
 finalFrequent Item:  {'F'}
 condPattBases : F {frozenset({'C', 'E', 'B', 'A'}): 2}
+
 step4 conditional tree for:  {'F'}
    Null Set : 1
      A : 2
@@ -130,6 +143,7 @@ condPattBases : A {}
 basePat:  B
 finalFrequent Item:  {'F', 'B'}
 condPattBases : B {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'F', 'B'}
    Null Set : 1
      A : 2
@@ -140,6 +154,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'F', 'C'}
 condPattBases : C {frozenset({'A', 'B'}): 2}
+
 step4 conditional tree for:  {'F', 'C'}
    Null Set : 1
      A : 2
@@ -151,6 +166,7 @@ condPattBases : A {}
 basePat:  B
 finalFrequent Item:  {'F', 'B', 'C'}
 condPattBases : B {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'F', 'B', 'C'}
    Null Set : 1
      A : 2
@@ -161,6 +177,7 @@ condPattBases : A {}
 basePat:  E
 finalFrequent Item:  {'F', 'E'}
 condPattBases : E {frozenset({'C', 'B', 'A'}): 2}
+
 step4 conditional tree for:  {'F', 'E'}
    Null Set : 1
      A : 2
@@ -173,6 +190,7 @@ condPattBases : A {}
 basePat:  B
 finalFrequent Item:  {'F', 'E', 'B'}
 condPattBases : B {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'F', 'E', 'B'}
    Null Set : 1
      A : 2
@@ -183,6 +201,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'F', 'E', 'C'}
 condPattBases : C {frozenset({'A', 'B'}): 2}
+
 step4 conditional tree for:  {'F', 'E', 'C'}
    Null Set : 1
      A : 2
@@ -194,6 +213,7 @@ condPattBases : A {}
 basePat:  B
 finalFrequent Item:  {'F', 'E', 'B', 'C'}
 condPattBases : B {frozenset({'A'}): 2}
+
 step4 conditional tree for:  {'F', 'E', 'B', 'C'}
    Null Set : 1
      A : 2
@@ -204,6 +224,7 @@ condPattBases : A {}
 basePat:  G
 finalFrequent Item:  {'G'}
 condPattBases : G {frozenset({'C', 'A'}): 1, frozenset({'C', 'E', 'A'}): 4}
+
 step4 conditional tree for:  {'G'}
    Null Set : 1
      A : 5
@@ -216,6 +237,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'G'}
 condPattBases : C {frozenset({'A'}): 5}
+
 step4 conditional tree for:  {'C', 'G'}
    Null Set : 1
      A : 5
@@ -226,6 +248,7 @@ condPattBases : A {}
 basePat:  E
 finalFrequent Item:  {'G', 'E'}
 condPattBases : E {frozenset({'C', 'A'}): 4}
+
 step4 conditional tree for:  {'G', 'E'}
    Null Set : 1
      A : 4
@@ -237,6 +260,7 @@ condPattBases : A {}
 basePat:  C
 finalFrequent Item:  {'C', 'G', 'E'}
 condPattBases : C {frozenset({'A'}): 4}
+
 step4 conditional tree for:  {'C', 'G', 'E'}
    Null Set : 1
      A : 4
