@@ -96,6 +96,9 @@ between regression and classification is that the variable forecasted in regress
   - **Example:** Assign points to 4 clusters.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/k_means/k_means_test.jpg)
+  
+# Apriori 
+The Apriori algorithm needs a minimum support level as an input and a data set. The algorithm will generate a list of all candidate itemsets with one item. The transaction data set will then be scanned to see which sets meet the minimum support level. Sets that don’t meet the minimum support level will get tossed out. The remaining sets will then be combined to make itemsets with two elements. Again, the transaction dataset will be scanned and itemsets not meeting the minimum support level will get tossed. This procedure will be repeated until all sets are tossed out.
 
 # FP_Growth
   - **Description:**  The FP-growth algorithm is faster than Apriori because it requires only two scans of the database, whereas Apriori will scan the dataset to find if a given pattern is frequent or not—Apriori scans the dataset for every potential frequent item. On small datasets, this isn’t a problem, but when you’re dealing with larger datasets, this will be a problem. The FP-growth algorithm  scans the dataset only twice. The basic approach to finding frequent itemsets using the FP-growth algorithm is as follows:
