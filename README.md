@@ -96,3 +96,7 @@ between regression and classification is that the variable forecasted in regress
   - **Example:** Assign points to 4 clusters.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/k_means/k_means_test.jpg)
+
+# FP_Growth
+
+# PCA
