@@ -111,3 +111,6 @@ The Apriori algorithm needs a minimum support level as an input and a data set. 
 # PCA
  - **Description:** The first method for dimensionality reduction is called principal component analysis (PCA). In PCA, the dataset is transformed from its original coordinate system to a new coordinate system. The new coordinate system is chosen by the data itself. The first new axis is chosen in the direction of the most variance in the data. The second axis is orthogonal to the first axis and in the direction of an orthogonal axis with the largest variance. This procedure is repeated for as many features as we had in the original
 data. We’ll find that the majority of the variance is contained in the first few axes. Therefore, we can ignore the rest of the axes, and we reduce the dimensionality of our data. 
+
+# SVD
+ - **Description:**  The method for distilling this information is known as the singular value decomposition(SVD). It’s a powerful tool used to distill information in a number of applications, from bioinformatics to finance. 
