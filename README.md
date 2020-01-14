@@ -1,11 +1,11 @@
+# Language
+<a href="https://memo.soarcloud.com/category/ai/">Explanation in Japanese</a>.
+
 # Machine learning
 Machine learning examples for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
 
 # Environment
 Google Colab CPU, Ubuntu 18.04.3 LTS, Python 3.6.8, sklearn 0.21.3, Numpy 1.17.3, Pandas 0.25.2, keras 2.2.5
-
-# Language
-<a href="https://memo.soarcloud.com/category/ai/">Explanation in Japanese</a>.
 
 # kNN
 
