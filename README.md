@@ -1,5 +1,5 @@
 # Language
-<a href="https://memo.soarcloud.com/category/ai/">Also explained in Japanese</a>.
+<a href="https://memo.soarcloud.com/%e6%a9%9f%e6%a2%b0%e5%ad%a6%e7%bf%92%e3%81%ae%ef%bc%91%e3%80%81k-%e8%bf%91%e5%82%8d%e6%b3%95/">Also explained in Japanese</a>.
 
 # Machine learning
 Machine learning examples for learning and practice. All tested on google colaboratory. Some examples are from "Machine Learning in Action" by Peter Harrington.
