@@ -82,11 +82,11 @@ between regression and classification is that the variable forecasted in regress
 
 # Decision_tree
 
-  - **Target:** Make a regression tree for decrete data, a model tree for continous data. 
+  - **Target:** Make a regression tree for discrete data, a model tree for continous data. 
   
   - **Description:** CART(Classification And Regression Tree).
   
-  - **Example:** Make a regression tree for decrete samples, a model tree for continous samples. Compare regression tree with liear regression.
+  - **Example:** Make a regression tree for discrete samples, a model tree for continous samples. Compare regression tree with liear regression.
   
   ![alt text](https://github.com/soarbear/Machine_Learning/blob/master/decision_tree/regression_tree.png)
 
